@@ -5,7 +5,7 @@ import Index from '../pages/Index.js';
 
 import Administrador from '../pages/Administrador';
 
-import Login from '../pages/Login.js';
+import Login from '../pages/LoginPage';
 
 function App() {
   return (

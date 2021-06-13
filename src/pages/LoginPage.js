@@ -5,7 +5,7 @@ import React from 'react';
 import Login from '../components/Login';
 //import Badge from '../components/Badge';
 
-class Index extends React.Component {
+class LoginPage extends React.Component {
   render() {
     return (
         
@@ -15,4 +15,4 @@ class Index extends React.Component {
   }
 }
 
-export default Login;
+export default LoginPage;
