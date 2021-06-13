@@ -30,7 +30,7 @@ class Navbar extends React.Component {
           </ul>
           <form className="form-inline my-2 my-lg-0" action="admin.html" method="post">
           <li className="nav-item">
-              <button type="submit" className="btn btn-primary" >Iniciar Sesión</button>
+              <button onclick="location.href='./pages/Login.js'" type="submit" className="btn btn-primary" >Iniciar Sesión</button>
             </li>
           </form>
         </div>
