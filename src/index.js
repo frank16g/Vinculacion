@@ -1,13 +1,12 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import App from './App';
 import 'bootstrap/dist/css/bootstrap.css';
 import reportWebVitals from './reportWebVitals';
-import Index from './pages/Index.js';
+import App from './components/App';
 
 ReactDOM.render(
-    <Index />,
+    <App />,
   document.getElementById('root')
 );
 
