@@ -4,10 +4,11 @@ import './index.css';
 import App from './App';
 import 'bootstrap/dist/css/bootstrap.css';
 import reportWebVitals from './reportWebVitals';
-import Index from './pages/Index.js';
+//import Index from './pages/Index.js';
+import Login from './pages/Login.js';
 
 ReactDOM.render(
-    <Index />,
+    <Login />,
   document.getElementById('root')
 );
 
