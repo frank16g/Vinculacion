@@ -7,6 +7,8 @@ import Administrador from '../pages/Administrador';
 
 import Login from '../pages/LoginPage';
 
+import AdminIntegrantes from '../pages/AdminIntegrantesPage';
+
 function App() {
   return (
     <BrowserRouter>
@@ -16,6 +18,8 @@ function App() {
         <Route exact path="/administrador" component={Administrador}/>
 
         <Route exact path="/login" component={Login}/>
+
+        <Route exact path="/adminIntegrantes" component={AdminIntegrantes}/>
 
     </Switch>
     </BrowserRouter>
