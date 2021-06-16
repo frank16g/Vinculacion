@@ -8,6 +8,7 @@ import Administrador from '../pages/Administrador';
 import Login from '../pages/LoginPage';
 import AdminIntegrantes from '../pages/AdminIntegrantesPage';
 import Tutores from '../pages/TutoresPage';
+import CambioContrasenia from './CambioContrasenia.js';
 //qq
 function App() {
   return (
@@ -22,6 +23,8 @@ function App() {
         <Route exact path="/adminIntegrantes" component={AdminIntegrantes}/>
        
         <Route exact path="/tutores" component={Tutores}/>
+        
+        <Route exact path="/cambioContrasenia" component={CambioContrasenia}/>
 
     </Switch>
     </BrowserRouter>

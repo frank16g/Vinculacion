@@ -2,7 +2,7 @@ import React from 'react';
 
 import 'bootstrap/dist/css/bootstrap.css';
 import './styles/estilo.css';
-//qq
+
 
 class Tutores extends React.Component {
     render() {
@@ -26,8 +26,8 @@ class Tutores extends React.Component {
                                     <td>Nombre Integrante</td>
                                     <td>Fecha Ingreso</td>
                                     <td>
-                                        <button type="submit" class="btn btn-info">Información</button>
-                                        <button type="button" class="btn btn-light">Objetivos </button>
+                                        <button type="submit" className="btn btn-info">Información</button>
+                                        <button type="button" className="btn btn-light">Objetivos </button>
                                     </td>    
                                 </tr>
 
