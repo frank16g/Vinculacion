@@ -2,7 +2,7 @@ import React from 'react';
 
 import 'bootstrap/dist/css/bootstrap.css';
 import './styles/estilo.css';
-//q
+//qq
 
 class Tutores extends React.Component {
     render() {
