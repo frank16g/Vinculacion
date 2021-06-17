@@ -8,8 +8,12 @@ import Administrador from '../pages/Administrador';
 import Login from '../pages/LoginPage';
 import AdminIntegrantes from '../pages/AdminIntegrantesPage';
 
+
 import Actividades from '../pages/Actividades.js';
 
+import Tutores from '../pages/TutoresPage';
+import CambioContrasenia from '../pages/CambioContraseniaPage';
+//qq
 function App() {
   return (
     <BrowserRouter>
@@ -21,6 +25,10 @@ function App() {
         <Route exact path="/login" component={Login}/>
 
         <Route exact path="/adminIntegrantes" component={AdminIntegrantes}/>
+       
+        <Route exact path="/tutores" component={Tutores}/>
+        
+        <Route exact path="/cambioContrasenia" component={CambioContrasenia}/>
 
         <Route exact path="/actividades" component={Actividades}/>
 
