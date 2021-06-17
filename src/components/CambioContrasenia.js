@@ -8,55 +8,55 @@ class CambioContrasenia extends React.Component {
     render() {
         return (
             <section>
-                <div class="container">
+                <div className="container">
                     <h3>Cambio de Contraseña</h3>
                     <br></br>
-                    <table style="width: 100%;">
+                    <table >
                         <tr>
-                            <td style="width: 10%; text-align: right;">
+                            <td >
                                 <label for="correo" class="label">Correo
-                                <span class="text-danger"> *</span> </label>
+                                <span className="text-danger"> *</span> </label>
                             </td>
-                                <td style="width: 60%;">
-                                <input type="text" style="width: 70%;" id="correo"></input>
+                                <td >
+                                <input type="text"  id="correo"></input>
                                 <div id="notaEmail">Ingrese su correo asociado a la cuenta</div>
                          
                             </td>
                         </tr>
                         <tr>
-                            <td colspan="2" style="width: 60%; text-align:center;">
-                                <input type="submit" class="btn btn-primary" value="Enviar Código" id="btn_EnviarCod"></input>
+                            <td colspan="2" >
+                                <input type="submit" className="btn btn-primary" value="Enviar Código" id="btn_EnviarCod"></input>
                             </td>
                         </tr>
                         <tr>
-                            <td style="width: 10%; text-align: right;">
-                                <label for="nombre" class="label">Ingresar Código
-                                <span class="text-danger"> *</span> </label>
+                            <td >
+                                <label for="nombre" className="label">Ingresar Código
+                                <span className="text-danger"> *</span> </label>
                             </td>
-                            <td style="width: 60%;">
-                                <input type="text" style="width: 70%;" id="ingresarCod"></input>
-                            </td>
-                        </tr>
-                        <tr>
-                            <td style="width: 10%; text-align: right;">
-                                <label for="nombre" class="label">Contraseña Anterior</label>
-                            </td>
-                            <td style="width: 60%;">
-                                <input type="text" style="width: 70%;" id="conAnterior"></input>
+                            <td >
+                                <input type="text"  id="ingresarCod"></input>
                             </td>
                         </tr>
                         <tr>
-                            <td style="width: 10%; text-align: right;">
-                                <label for="nombre" class="label">Nueva Contraseña
-                                <span class="text-danger"> *</span> </label>
+                            <td >
+                                <label for="nombre" className="label">Contraseña Anterior</label>
                             </td>
-                            <td style="width: 60%;">
-                                <input type="text" style="width: 70%;" id="nuevaCon"></input>
+                            <td >
+                                <input type="text"  id="conAnterior"></input>
                             </td>
                         </tr>
                         <tr>
-                            <td colspan="2" style="width: 60%; text-align:center;">
-                                <input type="submit" class="btn btn-primary" value="Guardar" id="btn_GuardarCon"></input>
+                            <td  >
+                                <label for="nombre" className="label">Nueva Contraseña
+                                <span className="text-danger"> *</span> </label>
+                            </td>
+                            <td >
+                                <input type="text"  id="nuevaCon"></input>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td colspan="2"  >
+                                <input type="submit" className="btn btn-primary" value="Guardar" id="btn_GuardarCon"></input>
                             </td>
                         </tr>
                     </table>

@@ -8,7 +8,7 @@ import Administrador from '../pages/Administrador';
 import Login from '../pages/LoginPage';
 import AdminIntegrantes from '../pages/AdminIntegrantesPage';
 import Tutores from '../pages/TutoresPage';
-import CambioContrasenia from './CambioContrasenia.js';
+import CambioContrasenia from '../pages/CambioContraseniaPage';
 //qq
 function App() {
   return (
